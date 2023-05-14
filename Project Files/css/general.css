@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+        font-family: sans-serif;
+}
+
+:root{
+    font-size: 62.5%;
+}
+*:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem lightblue;
+    transform: scale(1.1);
+    transition: all 0.2s ease 0s;
+}

@@ -1,0 +1,107 @@
+@media (max-width: 1600px) {
+    .shipping{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .upper-header{
+        gap: 5rem;
+
+    }
+    .quantity-input{
+        width: 10rem;
+    }
+    .left-cta, .cta-name, .cta-cost{
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    .cta{
+        gap : 3rem
+    }
+
+
+}
+
+@media (max-width: 1075px) {
+    .contact{
+        display: none;
+    }
+    .main-card{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .shipping{
+        align-items: center;
+        width: 100%;
+    }
+    .quantity {
+        flex-direction: row;
+            align-items: center;
+            width: 100%;
+    }
+    .qtb {
+        flex-direction: column;
+    }
+    .qtty{
+        text-align: center;
+        width: 100%;
+    }
+    .shipping-text, .card-product-code, .card-product-stock, .card-product-price{
+        text-align: center;
+        width: 100%;
+    }
+    .main-card{
+        flex-direction: column;
+    }
+    .cta-quantity{
+        flex-direction: row;
+    }
+    .left-cta{
+        display : none;
+    }
+
+}
+@media (max-width: 875px) {
+    .lower-header-options {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    .name{
+        display: none;
+    }
+    .lower-header{
+        gap: 0rem;
+    }
+    .card-product-offer{
+        font-size: 2rem;
+    }
+    .card-product-name{
+        width: 100%;
+        text-align: center;
+    }
+    .footer{
+        font-size: 2rem;
+    }
+
+}
+@media (max-width: 600px) {
+    .card-product-name{
+        font-size: 2rem;
+        width: 100%;
+    }
+    .card-product-desc{
+        width: 100%;;
+    }
+    .card-product-offer{
+        display: none;
+    }
+    .upper-header{
+        gap: 2rem;
+    }
+    .my-cart{
+        font-size: 1.1rem;
+    }
+    .header-input{
+        width: 15rem;
+    }
+}
